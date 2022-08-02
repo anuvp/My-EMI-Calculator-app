@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script/emi.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style/emi.css">
+</head>
+<body>
+<table>
+<tr>
+<td class="nav">
+<ul class="navul">
+<li class="navli"><a href="#home" class="nava">Calculate EMI</a></li>
+<li class="navli"><a href="#home" class="nava">Loan comparison</a></li>
+<li class="navli"><a href="#home" class="nava">Apply for Loan</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="contents">
+
+<table>
+<tr>
+<td colspan="3" id="lefttable">
+
+<table>
+<tr>
+<td>
+<p>You are here: <span class="textcolor">Finance</span>&nbsp EMI Calculator</p>
+<div class="lefttoptext">If you are not sure what interest rate you are being charged for your car loan, try our &nbsp<span class="textcolor">Interest Rate Calculator/Loan comparison</span> tool.</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<p class="lefthead">EMI Calculator - Calculate Your Car Loan EMI</p>
+<div class="leftportion">
+<p class="leftp">Car loan EMI calculation was never this easy. Just enter the amount of loan you want to get financed and interest rate. EMI calculator calculates installment on rducing balance. EMI calculator does not include any other processing fee or possible charges which may be applicable as per the rules of financing institutions.</p>
+</td></tr>
+<tr>
+<td>
+
+<table class="tablesub">
+<tr>
+<td>
+<form>
+<table class="tableform">
+<tr>
+<td>
+Loan Amount Applied For Rs.</td><td><input type="text" id="amount" onfocus="change(this)" onblur="changeback(this)" onkeypress="validate(this)">&nbsp /-</td></tr>
+<tr>
+<td>
+Rate of Interest</td><td><input type="text" id="interest" onfocus="change(this)" onblur="changeback(this)" onkeypress="validate(this)">&nbsp %</td></tr>
+<tr>
+<td>
+<input type="radio" id="advance" checked>EMI in advance</td><td><input type="radio" id="arrear">EMI in Arrears</td></tr>
+<tr><td></td><td><input type="button" value="Calculate EMI" id="calc" onclick="calculate()"></td>
+</tr>
+</table>
+</form>
+</td><td>
+<table class="innertable">
+<tr><th>Months</th><th>EMI</th><th>&nbsp</th></tr>
+<tr><td>12</td><td id="emi12m"></td><td><a href="#" id="view" onclick="showChart12m()">View Chart</a></td></tr>
+<tr><td>24</td><td id="emi24m"></td><td><a href="#" id="view" onclick="showChart24m()">View Chart</a></td></tr>
+<tr><td>36</td><td id="emi36m"></td><td><a href="#" id="view" onclick="showChart36m()">View Chart</a></td></tr>
+<tr><td>48</td><td id="emi48m"></td><td><a href="#" id="view" onclick="showChart48m()">View Chart</a></td></tr>
+<tr><td>60</td><td id="emi60m"></td><td><a href="#" id="view" onclick="showChart60m()">View Chart</a></td></tr>
+<tr><td>72</td><td id="emi72m"></td><td><a href="#" id="view" onclick="showChart72m()">View Chart</a></td></tr>
+<tr><td>84</td><td id="emi84m"></td><td><a href="#" id="view" onclick="showChart84m()">View Chart</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+</td></tr>
+<tr>
+<td class="leftportion">
+<p><span class="disclaimer">Disclaimer: &nbsp</span>The calculation performed by EMI calculator is based on the information you entered and is for illustrative purposes only. This calculation reflects amounts in indian rupee rounded to the nearest whole figure. Estimated monthly payments DO NOT include any processing or other possible fees which may depend on the financial institution/banks.<br><br>
+All loan figures are based upon non-commercial usage and are subject to credit approval from an independent lending source. Actual down payment and resulting monthly payments may vary depending upon type and use of vehicle, regional lender requirements, and the strength of your credit. Check with your dealer for exact monthly payment.</p>
+<br>
+<br>
+<br>
+<br>
+</div>
+</td>
+</tr>
+</table>
+</td>
+
+<td>
+<table class="righttable">
+<tr>
+<td class="righttabletd">
+<p class="righttopul">
+<p class="textcolor">Tools<br>
+<b>>></b>Calculate EMI<br>
+<b>>></b>EMI Comparison<br>
+<b>>></b>Refer to Friend</p>
+</td>
+<tr>
+<td class="righttabletd">
+<div class="image"></div>
+</td>
+</tr>
+<tr>
+<td class="righttabletd">
+<span class="textcolor">Feedback</span>
+<p>What is your opinion about this page?</p>
+<form>
+<input type="radio">Its's Helpful<br><input type="radio">Just Ok<br><input type="radio">Poor<br>
+<textarea name="textarea" rows="5" column="10"></textarea>
+<input type="button" value="Submit">
+</form>
+</td>
+</tr>
+</table>
+<td>
+<table class="rightgtable">
+<tr>
+<td >
+<div class="imgads"></div></td></tr>
+<tr>
+<td class="rightgtabled">
+<p class="rightpa"><a href="#Home">All New Tata Indica Vista</p></a><p>Experience Change in Style and Comfort Levels.Test Drive 1 Today!<br><a href="#Home" class="rightplink">tatamotors.com/OwnYourcar</a></p><br></td></tr>
+<tr>
+<td class="rightgtabled">
+<p class="rightpa"><a href="#Home">All New Tata Indica Vista</p></a><p>Experience Change in Style and Comfort Levels.Test Drive 1 Today!<br><a href="#Home" class="rightplink">tatamotors.com/OwnYourcar</a></p><br></td></tr>
+<tr>
+<td class="rightgtabled">
+<p class="rightpa"><a href="#Home">All New Tata Indica Vista</p></a><p>Experience Change in Style and Comfort Levels.Test Drive 1 Today!<br><a href="#Home" class="rightplink">tatamotors.com/OwnYourcar</a></p><br></td></tr>
+<tr>
+<td class="rightgtabled">
+<p class="rightpa"><a href="#Home">All New Tata Indica Vista</p></a><p>Experience Change in Style and Comfort Levels.Test Drive 1 Today!<br><a href="#Home" class="rightplink">tatamotors.com/OwnYourcar</a></p><br></td></tr>
+<tr>
+<td class="rightgtabled"><p class="rightpa"><a href="#Home">All New Tata Indica Vista</p></a><p>Experience Change in Style and Comfort Levels.Test Drive 1 Today!<br><a href="#Home" class="rightplink">tatamotors.com/OwnYourcar</a></p></td></tr>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+
+
+</html>

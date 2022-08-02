@@ -1,0 +1,95 @@
+<html>
+<head>
+<script src="script/emi.js">
+<link rel="stylesheet" type="text/css" href="style/emi.css">
+</head>
+<body>
+
+
+<table>
+<tr>
+<td id="nav">
+<ul>
+<li>Calculate EMI</li>
+<li>Loan comparison</li>
+<li>Apply for Loan</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td id="contents">
+
+<table>
+<tr>
+<td colspan="3" id="lefttable">
+
+<table>
+<tr>
+<td>
+<p>You are here: <span class="textcolor">Finance</span>&nbsp EMI Calculator</p>
+<div class="lefttoptext">If you are not sure what interest rate you are being charged for your car loan, try our<span class="textcolor">Interst Rate Calculator/Loan comparison</span> tool.</div>
+</td>
+</tr>
+<tr>
+<td>
+<p class="lefthead">EMI Calculator - Calculate Your Car Loan EMI</p>
+<p>Car loan EMI calculation was never this easy. Just enter the amount of loan you want to get financed and interest rate. EMI calculator calculates installment on rducing balance. EMI calculator does not include any other processing fee or possible charges which may be applicable as per the rules of financing institutions.</p>
+</td></tr>
+<tr>
+<td>
+
+<table>
+<tr>
+<td>
+<form>
+<table>
+<tr>
+<td>
+Loan Amount Applied For Rs.</td><td><input type="text" id="amount"></td></tr>
+<tr>
+<td>
+Rate of Interest</td><td><input type="text" id="interest"></td></tr>
+<tr>
+<td>
+<input type="radio" id="advance"></td><td><input type="radio" id="arrear"></td></tr>
+<tr><td><input type="button" value="Calculate EMI" id="calc" onclick="calculate()"></td>
+</tr>
+</table>
+</form>
+</td><td>
+<table>
+<tr><th>Months</th><th>EMI</th><th>&nbsp</th></tr>
+<tr><td>12</td><td>Rs. 8712/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+<tr><td>24</td><td>Rs. 4575/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+<tr><td>12</td><td>Rs. 3199/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+<tr><td>12</td><td>Rs. 2515/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+<tr><td>12</td><td>Rs. 2107/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+<tr><td>12</td><td>Rs. 1837/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+<tr><td>12</td><td>Rs. 1646/-</td><td><a href=#home id="view">View Chart</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+</td></tr>
+<tr>
+<td>
+<span class="disclaimer">Disclaimer:</span><p>The calculation performed by EMI calculator is based on the information you entered and is for illustrative purposes only. This calculation reflects amounts in indian rupee rounded to the nearest whole figure. Estimated monthly payments DO NOT include any processing or other possible fees which may depend on the financial institution/banks.</p>
+
+</td>
+</tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+</body>
+
+
+</html>

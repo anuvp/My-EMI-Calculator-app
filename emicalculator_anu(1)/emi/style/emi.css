@@ -1,0 +1,143 @@
+body{
+margin:0;
+padding:0;
+background-color:white;
+height:905px;
+width:1120px;
+text-align:center;
+}
+.nav{
+border-top:4px solid maroon;
+background-color:#E8E8E8;
+width:1120px;
+height:25px;
+border-bottom:1px solid skyblue;
+}
+.navul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.navli
+{
+float:left;
+padding-left:30px;
+}
+.nava{
+width:150px;
+text-decoration:none;
+}
+a.nava:active{border-bottom:2px solid maroon;text-decoration:none;}
+#contents{
+width:850px;
+}
+.leftportion{
+background-color:#E8E8E8;
+}
+
+.lefttoptext{
+text-align:left;
+width:600px;
+border:2px dashed maroon;
+height:50px;
+background-color:papayawhip;
+}
+.lefthead{
+font-size:20px;
+color:maroon;
+border-bottom:2px solid maroon;
+padding-top:20px;
+}
+#lefttable{
+height:600px;
+width:500px;
+}
+.textcolor{
+color:blue;
+}
+.tablesub{
+background-color:#E8E8E8;
+border-bottom:60px solid #E8E8E8;
+width:700px;
+}
+.tableform{
+text-align:left;
+}
+.innertable{
+margin-top:20px;
+margin-left:5px;
+text-align:center;
+
+}
+.innertabletd{
+border:1px solid skyblue;
+}
+.leftp{
+padding:10px;
+border-bottom:1px solid skyblue;
+}
+.disclaimer{
+color:maroon;
+font-size:20px;
+}
+#view{
+text-decoration:none;
+color:blue;
+font-weight:bold;
+}
+p{text-align:justify;}
+.righttabletd{
+background-color:#E8E8E8;
+text-align:left;
+padding:10px;
+border:1px solid black;
+}
+.image{
+background:url(../images/image1.png) no-repeat 30px 0px;
+height:275px;
+}
+.righttable{
+padding:0px 25px 25px 25px;
+border-spacing:5px 30px;
+width:90px;
+}
+.rightpa{
+font-weight:bold;
+color:blue;
+}
+.rightplink{
+text-decoration:none;
+color:green;
+font-size:12px;
+}
+rightgtabletd{
+text-align:left;
+}
+.rightgtable{
+width:200px;
+border:1px solid black;
+}
+.imgads{
+background:url(../images/image.png) no-repeat 0px 0px;
+height:30px;
+}
+#emi12m, #emi24m,  #emi36m,  #emi48m,  #emi60m,  #emi72m,  #emi84m{
+width:100px;
+}
+#header{
+border-bottom:3px solid maroon;
+text-align:left;
+}
+.pg2table{
+border-collapse:collapse;
+border:1px solid black;
+}
+
+.pg2table th,
+.pg2table td {
+border:solid 1px #000000; 
+padding: 2px 10px;
+width: 170px;
+text-align: center;
+}

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script/emi.js"></script>
+<link rel="stylesheet" type="text/css" href="style/emi.css">
+
+</head>
+<body>
+<div id="header"><h3><b>CarWale EMI Schedule</h3></div><br><br>
+<p id="head"></p>
+
+<table class="pg2table">
+<tr>
+<th>EMI Number
+</th>
+<th>EMI Amount
+</th>
+<th>Interest Amount
+</th>
+<th>Principal Reduction
+</th>
+<th>Balance Due
+</th>
+</tr>
+
+<tr>
+<td>1
+</td>
+<td><div id="emi1"></div>
+</td>
+<td><div id="interest1"></div>
+</td>
+<td><div id="pr1"></div>
+</td>
+<td><div id="balance1"></div>
+</td>
+</tr>
+
+<tr>
+<td>2
+</td>
+<td><div id="emi2"></div>
+</td>
+<td><div id="interest2"></div>
+</td>
+<td><div id="pr2"></div>
+</td>
+<td><div id="balance2"></div>
+</td>
+</tr>
+
+<tr>
+<td>3
+</td>
+<td><div id="emi3"></div>
+</td>
+<td><div id="interest3"></div>
+</td>
+<td><div id="pr3"></div>
+</td>
+<td><div id="balance3"></div>
+</td>
+</tr>
+
+<tr>
+<td>4
+</td>
+<td><div id="emi4"></div>
+</td>
+<td><div id="interest4"></div>
+</td>
+<td><div id="pr4"></div>
+</td>
+<td><div id="balance4"></div>
+</td>
+</tr>
+
+<tr>
+<td>5
+</td>
+<td><div id="emi5"></div>
+</td>
+<td><div id="interest5"></div>
+</td>
+<td><div id="pr5"></div>
+</td>
+<td><div id="balance5"></div>
+</td>
+</tr>
+
+<tr>
+<td>6
+</td>
+<td><div id="emi6"></div>
+</td>
+<td><div id="interest6"></div>
+</td>
+<td><div id="pr6"></div>
+</td>
+<td><div id="balance6"></div>
+</td>
+</tr>
+
+<tr>
+<td>7
+</td>
+<td><div id="emi7"></div>
+</td>
+<td><div id="interest7"></div>
+</td>
+<td><div id="pr7"></div>
+</td>
+<td><div id="balance7"></div>
+</td>
+</tr>
+
+<tr>
+<td>8
+</td>
+<td><div id="emi8"></div>
+</td>
+<td><div id="interest8"></div>
+</td>
+<td><div id="pr8"></div>
+</td>
+<td><div id="balance8"></div>
+</td>
+</tr>
+
+<tr>
+<td>9
+</td>
+<td><div id="emi9"></div>
+</td>
+<td><div id="interest9"></div>
+</td>
+<td><div id="pr9"></div>
+</td>
+<td><div id="balance9"></div>
+</td>
+</tr>
+
+<tr>
+<td>10
+</td>
+<td><div id="emi10"></div>
+</td>
+<td><div id="interest10"></div>
+</td>
+<td><div id="pr10"></div>
+</td>
+<td><div id="balance10"></div>
+</td>
+</tr>
+
+<tr>
+<td>11
+</td>
+<td><div id="emi11"></div>
+</td>
+<td><div id="interest11"></div>
+</td>
+<td><div id="pr11"></div>
+</td>
+<td><div id="balance11"></div>
+</td>
+</tr>
+
+<tr>
+<td>12
+</td>
+<td><div id="emi12"></div>
+</td>
+<td><div id="interest12"></div>
+</td>
+<td><div id="pr12"></div>
+</td>
+<td><div id="balance12"></div>
+</td>
+</tr>
+
+
+<tr>
+<td>13
+</td>
+<td><div id="emi13"></div>
+</td>
+<td><div id="interest13"></div>
+</td>
+<td><div id="pr13"></div>
+</td>
+<td><div id="balance13"></div>
+</td>
+</tr>
+
+<tr>
+<td>14
+</td>
+<td><div id="emi14"></div>
+</td>
+<td><div id="interest14"></div>
+</td>
+<td><div id="pr14"></div>
+</td>
+<td><div id="balance14"></div>
+</td>
+</tr>
+
+<tr>
+<td>15
+</td>
+<td><div id="emi15"></div>
+</td>
+<td><div id="interest15"></div>
+</td>
+<td><div id="pr15"></div>
+</td>
+<td><div id="balance15"></div>
+</td>
+</tr>
+
+<tr>
+<td>16
+</td>
+<td><div id="emi16"></div>
+</td>
+<td><div id="interest16"></div>
+</td>
+<td><div id="pr16"></div>
+</td>
+<td><div id="balance16"></div>
+</td>
+</tr>
+
+<tr>
+<td>17
+</td>
+<td><div id="emi17"></div>
+</td>
+<td><div id="interest17"></div>
+</td>
+<td><div id="pr17"></div>
+</td>
+<td><div id="balance17"></div>
+</td>
+</tr>
+
+<tr>
+<td>18
+</td>
+<td><div id="emi18"></div>
+</td>
+<td><div id="interest18"></div>
+</td>
+<td><div id="pr18"></div>
+</td>
+<td><div id="balance18"></div>
+</td>
+</tr>
+
+<tr>
+<td>19
+</td>
+<td><div id="emi19"></div>
+</td>
+<td><div id="interest19"></div>
+</td>
+<td><div id="pr19"></div>
+</td>
+<td><div id="balance19"></div>
+</td>
+</tr>
+
+<tr>
+<td>20
+</td>
+<td><div id="emi20"></div>
+</td>
+<td><div id="interest20"></div>
+</td>
+<td><div id="pr20"></div>
+</td>
+<td><div id="balance20"></div>
+</td>
+</tr>
+
+<tr>
+<td>21
+</td>
+<td><div id="emi21"></div>
+</td>
+<td><div id="interest21"></div>
+</td>
+<td><div id="pr21"></div>
+</td>
+<td><div id="balance21"></div>
+</td>
+</tr>
+
+<tr>
+<td>22
+</td>
+<td><div id="emi22"></div>
+</td>
+<td><div id="interest22"></div>
+</td>
+<td><div id="pr22"></div>
+</td>
+<td><div id="balance22"></div>
+</td>
+</tr>
+
+<tr>
+<td>23
+</td>
+<td><div id="emi23"></div>
+</td>
+<td><div id="interest23"></div>
+</td>
+<td><div id="pr23"></div>
+</td>
+<td><div id="balance23"></div>
+</td>
+</tr>
+
+<tr>
+<td>24
+</td>
+<td><div id="emi24"></div>
+</td>
+<td><div id="interest24"></div>
+</td>
+<td><div id="pr24"></div>
+</td>
+<td><div id="balance24"></div>
+</td>
+</tr>
+
+<tr>
+<td>25
+</td>
+<td><div id="emi25"></div>
+</td>
+<td><div id="interest25"></div>
+</td>
+<td><div id="pr25"></div>
+</td>
+<td><div id="balance25"></div>
+</td>
+</tr>
+
+<tr>
+<td>26
+</td>
+<td><div id="emi26"></div>
+</td>
+<td><div id="interest26"></div>
+</td>
+<td><div id="pr26"></div>
+</td>
+<td><div id="balance26"></div>
+</td>
+</tr>
+
+<tr>
+<td>27
+</td>
+<td><div id="emi27"></div>
+</td>
+<td><div id="interest27"></div>
+</td>
+<td><div id="pr27"></div>
+</td>
+<td><div id="balance27"></div>
+</td>
+</tr>
+
+<tr>
+<td>28
+</td>
+<td><div id="emi28"></div>
+</td>
+<td><div id="interest28"></div>
+</td>
+<td><div id="pr28"></div>
+</td>
+<td><div id="balance28"></div>
+</td>
+</tr>
+
+<tr>
+<td>29
+</td>
+<td><div id="emi29"></div>
+</td>
+<td><div id="interest29"></div>
+</td>
+<td><div id="pr29"></div>
+</td>
+<td><div id="balance29"></div>
+</td>
+</tr>
+
+<tr>
+<td>30
+</td>
+<td><div id="emi30"></div>
+</td>
+<td><div id="interest30"></div>
+</td>
+<td><div id="pr30"></div>
+</td>
+<td><div id="balance30"></div>
+</td>
+</tr>
+
+<tr>
+<td>31
+</td>
+<td><div id="emi31"></div>
+</td>
+<td><div id="interest31"></div>
+</td>
+<td><div id="pr31"></div>
+</td>
+<td><div id="balance31"></div>
+</td>
+</tr>
+
+<tr>
+<td>32
+</td>
+<td><div id="emi32"></div>
+</td>
+<td><div id="interest32"></div>
+</td>
+<td><div id="pr32"></div>
+</td>
+<td><div id="balance32"></div>
+</td>
+</tr>
+
+<tr>
+<td>33
+</td>
+<td><div id="emi33"></div>
+</td>
+<td><div id="interest33"></div>
+</td>
+<td><div id="pr33"></div>
+</td>
+<td><div id="balance33"></div>
+</td>
+</tr>
+
+<tr>
+<td>34
+</td>
+<td><div id="emi34"></div>
+</td>
+<td><div id="interest34"></div>
+</td>
+<td><div id="pr34"></div>
+</td>
+<td><div id="balance34"></div>
+</td>
+</tr>
+
+<tr>
+<td>35
+</td>
+<td><div id="emi35"></div>
+</td>
+<td><div id="interest35"></div>
+</td>
+<td><div id="pr35"></div>
+</td>
+<td><div id="balance35"></div>
+</td>
+</tr>
+
+<tr>
+<td>36
+</td>
+<td><div id="emi36"></div>
+</td>
+<td><div id="interest36"></div>
+</td>
+<td><div id="pr36"></div>
+</td>
+<td><div id="balance36"></div>
+</td>
+</tr>
+
+<tr>
+<td>37
+</td>
+<td><div id="emi37"></div>
+</td>
+<td><div id="interest37"></div>
+</td>
+<td><div id="pr37"></div>
+</td>
+<td><div id="balance37"></div>
+</td>
+</tr>
+
+<tr>
+<td>38
+</td>
+<td><div id="emi38"></div>
+</td>
+<td><div id="interest38"></div>
+</td>
+<td><div id="pr38"></div>
+</td>
+<td><div id="balance38"></div>
+</td>
+</tr>
+
+<tr>
+<td>39
+</td>
+<td><div id="emi39"></div>
+</td>
+<td><div id="interest39"></div>
+</td>
+<td><div id="pr39"></div>
+</td>
+<td><div id="balance39"></div>
+</td>
+</tr>
+
+<tr>
+<td>40
+</td>
+<td><div id="emi40"></div>
+</td>
+<td><div id="interest40"></div>
+</td>
+<td><div id="pr40"></div>
+</td>
+<td><div id="balance40"></div>
+</td>
+</tr>
+
+<tr>
+<td>41
+</td>
+<td><div id="emi41"></div>
+</td>
+<td><div id="interest41"></div>
+</td>
+<td><div id="pr41"></div>
+</td>
+<td><div id="balance41"></div>
+</td>
+</tr>
+
+<tr>
+<td>42
+</td>
+<td><div id="emi42"></div>
+</td>
+<td><div id="interest42"></div>
+</td>
+<td><div id="pr42"></div>
+</td>
+<td><div id="balance42"></div>
+</td>
+</tr>
+
+<tr>
+<td>43
+</td>
+<td><div id="emi43"></div>
+</td>
+<td><div id="interest43"></div>
+</td>
+<td><div id="pr43"></div>
+</td>
+<td><div id="balance43"></div>
+</td>
+</tr>
+
+<tr>
+<td>44
+</td>
+<td><div id="emi44"></div>
+</td>
+<td><div id="interest44"></div>
+</td>
+<td><div id="pr44"></div>
+</td>
+<td><div id="balance44"></div>
+</td>
+</tr>
+
+<tr>
+<td>45
+</td>
+<td><div id="emi45"></div>
+</td>
+<td><div id="interest45"></div>
+</td>
+<td><div id="pr45"></div>
+</td>
+<td><div id="balance45"></div>
+</td>
+</tr>
+
+<tr>
+<td>46
+</td>
+<td><div id="emi46"></div>
+</td>
+<td><div id="interest46"></div>
+</td>
+<td><div id="pr46"></div>
+</td>
+<td><div id="balance46"></div>
+</td>
+</tr>
+
+<tr>
+<td>47
+</td>
+<td><div id="emi47"></div>
+</td>
+<td><div id="interest47"></div>
+</td>
+<td><div id="pr47"></div>
+</td>
+<td><div id="balance47"></div>
+</td>
+</tr>
+
+</table>
+
+<p id="totalint"></p>
+
+
+
+<table class="pg2table">
+<tr>
+<th>Months</th><th>EMI</th></tr>
+<tr><td>12</td><td id="emii12"></td><tr>
+<tr><td>24</td><td id="emii24"></td><tr>
+<tr><td>36</td><td id="emii36"></td><tr>
+<tr><td>48</td><td id="emii48"></td><tr>
+<tr><td>60</td><td id="emii60"></td><tr>
+<tr><td>72</td><td id="emii72"></td><tr>
+<tr><td>84</td><td id="emii84"></td><tr>
+</table>
+</body>
+</html>
